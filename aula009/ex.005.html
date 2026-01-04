@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
+    <title>JS (DOM)</title>
+<style>
+    body{
+        font: normal 2em Arial;
+        background-color: darkslateblue;
+        color: azure;
+    }
+</style>
 </head>
 <body>
-    
+    <h1>Iniciando estudos com DOM</h1>
+    <p>resultados</p>
+    <div id="nome">Clique em mim</div>
+    <script>
+        var d = window.document.getElementById('nome')
+        d.style.color = 'pink'
+    </script>
 </body>
 </html>
